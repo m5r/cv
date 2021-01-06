@@ -3,7 +3,7 @@ langs := fr en
 all: $(langs)
 
 fr:
-	cd français; xelatex cv.tex; cd -
+	cd français; tectonic cv.tex; cd -
 
 en:
-	cd english; xelatex cv.tex; cd -
+	cd english; tectonic cv.tex; cd -
